@@ -1,0 +1,1 @@
+Q2: You need to drop a column but some services still use it. How do you safely migrate?
