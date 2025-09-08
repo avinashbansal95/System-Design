@@ -33,7 +33,7 @@ MongoDB on a single node (even replica set) has limitations:
 - Stores metadata (chunk ranges, shard mapping)
 - Usually 3 config servers for fault tolerance
 
-### mongos (Query Router)
+### mongos (Query Router)   
 - Entry point for applications
 - Client doesn't know where the data lives → mongos routes queries to correct shard(s)
 
